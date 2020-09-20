@@ -1,0 +1,16 @@
+rosencrantz:gardening
+macduff:immortal
+capulet:dudgeon
+superti:caricature
+malcolm:gumshoe
+voltimand:lovelorn
+polonius:airwave
+lennox:dismal
+juliet:despised
+laertes:diverted
+duncan:freakish
+technof:greenish
+tacticreport:peonies
+ophelia:regulators
+francisco:paranoiacs
+
