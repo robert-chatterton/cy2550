@@ -9,3 +9,4 @@ chown root:root /usr/lib/x86_64-linux-gnu/libc-2.28.so
 chmod g-w /usr/lib/x86_64-linux-gnu/security
 chown root:root /usr/lib/x86_64-linux-gnu/security
 chmod go=rx /home/bob
+chmod g+w /etc/apt/sources.list
