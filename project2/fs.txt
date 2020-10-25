@@ -2,3 +2,5 @@ chmod 600 dev/console
 chmod 644 home/alice/.profile
 chmod go=rx /usr/bin/passwd
 chmod go=rx /usr/bin/sha1sum
+chmod go=rx /usr/sbin/adduser
+chmod o-w /usr/local/bin
