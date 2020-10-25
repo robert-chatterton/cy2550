@@ -1,4 +1,4 @@
-chmod 644 home/alice/.profile
+chmod 644 /home/alice/.profile
 chmod go=rx /usr/bin/passwd
 chmod go=rx /usr/bin/sha1sum
 chmod go=rx /usr/sbin/adduser
@@ -8,5 +8,4 @@ chmod g-w /usr/lib/x86_64-linux-gnu/libc-2.28.so
 chown root:root /usr/lib/x86_64-linux-gnu/libc-2.28.so
 chmod g-w /usr/lib/x86_64-linux-gnu/security
 chown root:root /usr/lib/x86_64-linux-gnu/security
-chmod 555 sys
-chmod 555 proc
+chmod go=rx /home/bob
