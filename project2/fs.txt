@@ -2,7 +2,7 @@ chmod 644 /home/alice/.profile
 chmod go=rx /usr/bin/passwd
 chmod go=rx /usr/bin/sha1sum
 chmod go=rx /usr/sbin/adduser
-chmod o-w /usr/local/binS
+chmod o-w /usr/local/bin
 chmod go=rx /usr/local/share/ca-certificates
 chmod g-w /usr/lib/x86_64-linux-gnu/libc-2.28.so
 chown root:root /usr/lib/x86_64-linux-gnu/libc-2.28.so
