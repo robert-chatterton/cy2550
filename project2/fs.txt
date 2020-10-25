@@ -8,3 +8,5 @@ chmod g-w /usr/lib/x86_64-linux-gnu/libc-2.28.so
 chown root:root /usr/lib/x86_64-linux-gnu/libc-2.28.so
 chmod g-w /usr/lib/x86_64-linux-gnu/security
 chown root:root /usr/lib/x86_64-linux-gnu/security
+chmod u-w /sys
+chmod u-w /proc
