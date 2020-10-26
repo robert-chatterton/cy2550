@@ -1,1 +1,17 @@
-apparmor
+#include <tunables/global>
+/home/robbie/cy2550/project2/p2 flags=(audit) {
+  #include <abstractions/base>
+  network tcp,
+  /home/robbie/cy2550/project2/template r,
+  /home/robbie/.project2/config w,
+  /tmp/project** rw,
+  /var/log/syslog r,
+  /etc/timezone r,
+  /etc/hostid r,
+  /etc/passwd r,
+  /etc/hosts r,
+  /proc/version r,
+  /proc/uptime r,
+  /etc/ld.so.cache r,
+  @{HOME}/home/robbie/cy2550/project2/p2 mr,
+}
