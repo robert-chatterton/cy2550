@@ -2,5 +2,5 @@
 17/Nov/2020:06:12:02 -0500
 Nov 17 06:12:02
 /etc/shadow
-/root/sung-drunker-touchier-1.shq
+/root/sung-drunker-touchier-1.sh
 /usr/bin/groups
