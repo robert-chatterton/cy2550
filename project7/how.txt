@@ -1,0 +1,5 @@
+flag1 // cookies
+flag2 // add /edit
+flag3 // https://nureddit.com/search?query=%3Cscript%3Ealert(dom_executed)%3C/script%3E
+flag4 // comment <script>alert(1)</script>
+flag5
